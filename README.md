@@ -1,3 +1,3 @@
 # gameboard257
-RestAPI
+RestAPI project
 Cloned from Heroku git
