@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence" version="1.0">
+
+  <persistence-unit name="myUnit" transaction-type="RESOURCE_LOCAL">
+    <description>My Persistence Unit</description>
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>com.ira.entity.UserEntity</class>
+    <class>com.ira.entity.GameEntity</class>
+    <class>com.ira.entity.EntryEntity</class>
+    <class>com.ira.entity.AltEntryEntity</class>
+
+  </persistence-unit>
+
+</persistence>
